@@ -13,9 +13,10 @@ dictor = "*"
 uvicorn = "*"
 psycopg2 = "*"
 alembic = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.8"
 
 [scripts]
-sparky = 'python run.py'
+app = 'python run.py'

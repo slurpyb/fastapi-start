@@ -17,7 +17,7 @@ use Pipenv to install dependencies (Pipfile)
 
 start the web server
 
-    pipenv run sparky
+    pipenv run app
 
 
 ## testing server load for background tasks
@@ -30,3 +30,6 @@ quick and dirty way to test server response, initiate multiple simultaneous curl
 ## additional resources
 
 https://github.com/mjhea0/awesome-fastapi#tutorials
+
+## Resolving psycog2 error on ubuntu
+sudo apt install libpq-dev python3-dev
